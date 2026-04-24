@@ -11,8 +11,6 @@ print(f"Your height in meters is: {height_m:.2f}")
 
 #BMI formula
 bmi = weight / (height_m ** 2)
-
-# Category
 if bmi < 18.5:
     category = "Underweight"
 elif bmi < 25:
